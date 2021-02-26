@@ -12,6 +12,8 @@ struct EncouragementView: View {
     
     // MARK: Stored properties
     
+    @State private var phrase: String = ""
+    
     // What to say?
     var message: String
     

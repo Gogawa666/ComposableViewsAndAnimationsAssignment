@@ -39,9 +39,9 @@ struct CustomComposableDescriptionView: View {
                 
             }
             
-            NavigationLink(destination: CustomComposableView()) {
-                SimpleListItemView(title: "My Composable View",
-                                   caption: "A brief description of my view")
+            NavigationLink(destination: CustomComposableView(message: phrase)) {
+                SimpleListItemView(title: "Encouragement",
+                                   caption: "The animation will say: \(phrase)")
             }
             
         }
